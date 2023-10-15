@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSportTDD.Core.Tests", "HPlusSportTDD.Core.Tests\HPlusSportTDD.Core.Tests.csproj", "{17432185-BA64-4D7E-BDB1-9EA6D1426BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSportTDD.Core", "HPlusSportTDD.Core\HPlusSportTDD.Core.csproj", "{707DC6DB-ACBD-4DDB-83AC-220DEF33EA7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17432185-BA64-4D7E-BDB1-9EA6D1426BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17432185-BA64-4D7E-BDB1-9EA6D1426BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17432185-BA64-4D7E-BDB1-9EA6D1426BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17432185-BA64-4D7E-BDB1-9EA6D1426BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707DC6DB-ACBD-4DDB-83AC-220DEF33EA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707DC6DB-ACBD-4DDB-83AC-220DEF33EA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707DC6DB-ACBD-4DDB-83AC-220DEF33EA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707DC6DB-ACBD-4DDB-83AC-220DEF33EA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B7FE729-52AE-42A7-A777-528A4A738758}
+	EndGlobalSection
+EndGlobal
