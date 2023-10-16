@@ -19,7 +19,7 @@ namespace HPlusSportTDD.Core
         [Test]
         public void ShouldReturnArticleAddedToCart()
         {
-            var item = new AddToCartItem(articleId: 42, quantity: 5);
+            var item = new AddToCartItem(id: 1, articleId: 42, quantity: 5);
 
             var request = new AddToCartRequest(item);
 
@@ -39,14 +39,14 @@ namespace HPlusSportTDD.Core
         [Test]
         public void ShouldReturnArticlesAddedToCart()
         {
-            var item1 = new AddToCartItem(articleId: 42, quantity: 5);
+            var item1 = new AddToCartItem(id: 1, articleId: 42, quantity: 5);
 
             var request = new AddToCartRequest(item1);
 
             var manager = new ShoppingCartManager();
             AddToCartResponse response = manager.AddToCart(request);
 
-            var item2 = new AddToCartItem(articleId: 43, quantity: 10);
+            var item2 = new AddToCartItem(id: 2, articleId: 43, quantity: 10);
 
             request = new AddToCartRequest(item2);
 
@@ -62,12 +62,12 @@ namespace HPlusSportTDD.Core
         {
             var manager = new ShoppingCartManager();
 
-            var item = new AddToCartItem(articleId: 42, quantity: 5);
+            var item = new AddToCartItem(id: 1, articleId: 42, quantity: 5);
             var request = new AddToCartRequest(item);
 
             AddToCartResponse response = manager.AddToCart(request);
 
-            item = new AddToCartItem(articleId: 42, quantity: 10);
+            item = new AddToCartItem(id: 2, articleId: 42, quantity: 10);
             request = new AddToCartRequest(item);
 
             response = manager.AddToCart(request);

@@ -22,7 +22,7 @@ namespace HPlusSportTDD.Core
         {
             var initialItems = new AddToCartItem[]
             {
-                new AddToCartItem(articleId: 42, quantity: 5)
+                new AddToCartItem(id: 1, articleId: 42, quantity: 5)
             };
 
             var mockContext = new Mock<ShoppingCartContext>();
